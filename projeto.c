@@ -13,7 +13,7 @@ long double resultado = 0;
 //Função série de Taylor
 void *taylor(void *arg){
 
-    int cont = (int)arg;
+    int cont = (long)arg;
     
     resultado += (1.0 / cont);
 
